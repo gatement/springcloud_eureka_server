@@ -1,6 +1,7 @@
-# eureka server
+# description
+* eureka server
 
-## Run
+## package and run
 * `./mvnw package`
 * `./mvnw package -Dmaven.test.skip=true`
 * `java -jar target/springcloud_eureka_server-0.1.0-SNAPSHOT.jar --spring.profiles.active=peer1`
